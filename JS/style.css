@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0
+  }
+  ul {
+    list-style: none
+  }
+  img {
+    vertical-align: top
+  }
+
+  .box {
+    width: 730px;
+    height: 454px;
+    margin: 100px auto;
+    padding: 5px;
+    border: 1px solid #ccc;
+  }
+
+  .inner {
+    width: 730px;
+    height: 454px;
+    background-color: pink;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .inner ul {
+    width: 1000%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .inner li {
+    float: left;
+  }
+
+  .square {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+  }
+
+  .square span {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-color: #fff;
+    text-align: center;
+    line-height: 16px;
+    cursor: pointer;
+  }
+
+  .square span.current {
+    background-color: orangered;
+    color: #fff;
+  }
